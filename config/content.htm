@@ -11,7 +11,15 @@
 <p>5. 設定flask_cors</p>
 <p>6. 利用cmsimde python wsgi.py 開啟近端</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/b9afO4xBZfs" width="560"></iframe></p>
-<p></p>
+<h4>Week03</h4>
+<h4>編譯Slovespace，以下有影片(開cc字幕)</h4>
+<p>1. 將 Y:\portablegit\bin\sh.exe 改名為 sh_rename_for_solvespace.exe</p>
+<p>2. 查驗 git 版本在 2.13 以上，即可使用 git clone --recurse-submodules 指令取得所有子模組資料</p>
+<p>3. 將CMakeLists line 713 and 714 前面加上 #</p>
+<p>4. 手動進行 libpng.dll.a 的編譯，並且改名為 libpng_static.a 後放到Y槽的 lib 目錄</p>
+<p>5. 回到 solvespace 目錄， 建立 build 目錄後進入 build 目錄，執行以下兩行程式</p>
+<p>cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release<br/>mingw32-make</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/sRQkXMsOqOE" width="560"></iframe></p>
 <h1>About</h1>
 <p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
 <h4>利用 cmsimde 建立靜態網誌方法:</h4>
