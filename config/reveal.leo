@@ -411,7 +411,7 @@ Created by [40723234](https://s40723234.github.io/cad2019/content/index.html)
                      2.組員利用pull requests參與分組作業
                      3.分別進行 Solidworks 和 NX 繪圖練習
                      4.進行Solidworks 和 NX 繪圖差異分析
-* WEEK 12 : 翻譯電子書
+* WEEK 12 : 翻譯電子書(第6章)
 * WEEK 13 :  分組做WEBOTS
 * WEEK 14 :  
     &lt;/script&gt;
