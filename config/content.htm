@@ -3,6 +3,8 @@
 <h4><a href="https://s40723234.github.io/cad2019/content/week06-09.html">week06-09</a></h4>
 <h4><a href="https://s40723234.github.io/cad2019/content/week10-14.html">week10-14</a></h4>
 <h4><a href="https://s40723234.github.io/cad2019/content/week15-18.html">week15-18</a></h4>
+<p>youtube  :<a href="https://www.youtube.com/channel/UCsEwtWcMxj0-Mf7mozYdaYQ">https://www.youtube.com/channel/UCsEwtWcMxj0-Mf7mozYdaYQ</a></p>
+<p>github  :<a href="https://github.com/s40723234/cad2019">https://github.com/s40723234/cad2019</a></p>
 <h2>week02-06</h2>
 <h4>week02</h4>
 <h4>建立倉儲與開近端，以下有影片(開cc字幕)</h4>
@@ -363,7 +365,8 @@
 <p>測驗，以下是影片(開cc字幕)</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/SHsjAOoRmbw" width="560"></iframe></p>
 <h4>week17</h4>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/dlanmIau7f4" width="560"></iframe>以上是影片(開cc字幕)</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/dlanmIau7f4" width="560"></iframe></p>
+<p>以上是影片(開cc字幕)</p>
 <p>Now we are ready to define our model.</p>
 <p>We start by building the model herarchy: we attach the last dynamic robot link (<em>robot_link_dyn6</em>) to its corresponding joint (<em>robot_joint6</em>) by selecting <em>robot_link_dyn6</em>, then control-selecting <em>robot_joint6</em>, then [Menu bar --&gt; Edit --&gt; Make last selected object parent]. We could also have done this step by simply dragging object <em>robot_link_dyn6</em> onto <em>robot_link6</em> in the <span><a href="http://www.coppeliarobotics.com/helpFiles/en/userInterface.htm#SceneHierarchy">scene hierarchy</a></span>. We go on by now attaching <em>robot_joint6</em> to <em>robot_link_dyn5</em>, and so on, until arrived at the base of the robot. We now have following scene hierarchy:</p>
 <p>現在我們準備定義模型了。</p>
@@ -371,11 +374,9 @@
 <p>*photo<img alt="" height="791" src="/images/photo 01.png" width="493"/></p>
 <p>It is nice and more logical to have a simple name for the model base, since the model base will also represent the model itself. So we rename <em>robot</em> to <em>robot_visibleBase</em>, and <em>robot_dyn</em> to <em>robot</em>. Now we select the base of the hierarchy tree (i.e. object <em>robot</em>) and in the <span><a href="http://www.coppeliarobotics.com/helpFiles/en/commonPropertiesDialog.htm">object common properties</a></span> we enable <strong>Object is model base</strong>. We also enable <strong>Object/model can transfer or accept DNA</strong>. A model bounding box appeared, encompassing the whole robot. The bounding box however appears to be too large: this is because the bounding box also encompasses the invisible items, such as the joints. We now exclude the joints from the model bounding box by enabling the <strong>Don't show as inside model selection</strong> item for all joints. We could do the same procedure for all invisible items in our model. This is also a useful option in order to also exclude large sensors or other items from the model bounding box. We now have following situation:</p>
 <p>為模型庫起一個簡單的名字是很好而且更合乎邏輯的，因為模型庫也將代表模型本身。 因此，我們將<span>robot</span>重命名為<span>robot_visibleBase</span>，並將<span>robot_dyn</span>重命名為<span>robot</span>。 現在我們選擇層次結構樹的基礎（即對像機械手），並在對象公共屬性中啟用<span>``</span>對像是模型基礎<span>''</span>。 我們還使對象<span>/</span>模型可以轉移或接受<span>DNA</span>。 出現了一個模型包圍盒，包圍了整個機器人。 但是，邊界框似乎太大：這是因為邊界框還包含不可見的項，例如關節。 現在，通過對所有關節啟用“不顯示為內部模型”選擇項，將關節從模型邊界框中排除。 我們可以對模型中的所有不可見項執行相同的過程。 這也是一個有用的選項，可以將大型傳感器或其他項目也排除在模型邊界框之外。 我們現在有以下情況：</p>
-<p>*photo 02</p>
 <p><img alt="" height="317" src="/images/photo 02.png" width="647"/></p>
 <p>We now protect our model from accidental modification. We select all visible objects in the robot, then enable <strong>Select base of model instead</strong>: if we now click a visible link in the scene, the base of the robot will be selected instead. This allows us to manipulate the model as if it was a single object. We can still select visible objects in the robot via control-shift-clicking in the scene, or by selecting the object in the scene hierarchy. We now put the robot into a correct default position/orientation. First, we save current scene as a reference (e.g. if at a later stage we need to import CAD data that have the same orientation at the curent robot). Then we select the model and <span><a href="http://www.coppeliarobotics.com/helpFiles/en/coordinateDialog.htm">modify its position/orientation</a></span> appropriately. It is considered good practice to position the model (i.e. its base object) at X=0 and Y=0.</p>
 <p>現在，我們保護模型免受意外修改。 我們選擇機器人中的所有可見對象，然後啟用“選擇模型的基礎”：如果現在單擊場景中的可見鏈接，則會改為選擇機器人的基礎。 這使我們可以像對待單個對像一樣操作模型。 我們仍然可以通過按住<span>Shift</span>鍵並單擊場景或在場景層次中選擇對象來選擇機器人中的可見對象。 現在，我們將機器人置於正確的默認位置<span>/</span>方向。 首先，我們將當前場景保存為參考（例如，如果稍後需要在當前機器人上導入方向相同的<span>CAD</span>數據）。 然後，我們選擇模型並適當修改其位置<span>/</span>方向。 將模型（即其基礎對象）定位在<span>X = 0</span>和<span>Y = 0</span>處被認為是一種好習慣。</p>
-<p>*photo 03</p>
 <p><img alt="" height="598" src="/images/photo 03.png" width="758"/></p>
 <p>We now run the simulation: the robot will collapse, since the joints are not controlled by default. When we added the joints in the previous stage, we created joints in force/torque mode, but their motor or controller was disabled (by default). We can now adjust our joints to our requirements. In our case, we want a simple PID controller for each one of them. In the joint dynamic properties, we click Motor enabled and adjust the maximum torque. We then click Control loop enabled and select Position control (PID). We now run the simulation again: the robot should hold its position. Try to switch the current physics engine to see if the behaviour is consistent across all supported physics engines. You can do this via the appropriate toolbar button, or in the general dynamics properties.</p>
 <p> </p>
@@ -384,7 +385,6 @@
 <p>現在我們運行模擬：由於默認情況下關節不受控制，因此機器人將崩潰。 在上一階段添加關節時，我們以力<span>/</span>扭矩模式創建了關節，但其電動機或控制器已禁用（默認情況下）。 現在，我們可以根據需要調整關節。 在我們的案例中，我們希望為每個控制器都提供一個簡單的<span>PID</span>控制器。 在關節動態屬性中，單擊“啟用電機”並調整最大扭矩。 然後，單擊啟用控制環，然後選擇位置控制（<span>PID</span>）。 現在，我們再次運行仿真：機器人應保持其位置。 嘗試切換當前的物理引擎，以查看行為在所有受支持的物理引擎之間是否一致。 您可以通過相應的工具欄按鈕或在常規動力學屬性中執行此操作。</p>
 <p> </p>
 <p>在仿真過程中，我們現在通過“動態內容可視化和驗證”工具欄按鈕來驗證場景動態內容。 現在，將僅顯示物理引擎考慮的項目，並且該顯示使用顏色編碼。 始終執行此操作非常重要，尤其是在動態模型無法按預期運行時，為了快速調試模型，尤其如此。 同樣，在仿真過程中請始終查看場景層次：動態啟用的對象應在其名稱的右側顯示一個球形圖標。</p>
-<p>*photo 04</p>
 <p><img alt="" height="852" src="/images/photo 04.png" width="1009"/></p>
 <p>Finally, we need to prepare the robot so that we can easily attach a gripper to it, or easily attach the robot to a mobile platform (for instance). Two dynamically enabled shapes can be rigidly attached to each other in two different ways:</p>
 <p> </p>
@@ -397,16 +397,13 @@
 <p>通過對它們進行分組：選擇形狀，然後選擇<span>[</span>菜單欄<span>-&gt;</span>編輯<span>-&gt;</span>分組<span>/</span>合併<span>-&gt;</span>對選定形狀進行分組<span>]</span>。</p>
 <p>通過通過力<span>/</span>扭矩傳感器進行連接：力扭矩傳感器還可以充當兩個單獨的動態啟用形狀之間的剛性鏈接。</p>
 <p>在我們的情況下，只有選項<span>2</span>是有意義的。 我們使用<span>[</span>菜單欄<span>-&gt;</span>添加<span>-&gt;</span>力傳感器<span>]</span>創建一個力<span>/</span>扭矩傳感器，然後將其移動到機器人的尖端，然後將其附加到對象<span>robot_link_dyn6</span>。 我們會適當地更改其尺寸和外觀（紅色力<span>/</span>扭矩傳感器通常被視為可選的連接點，請檢查可用的各種機器人型號）。 我們還將其名稱更改為<span>robot_attachment</span>：</p>
-<p>*photo 05</p>
 <p><img alt="" height="845" src="/images/photo 05.png" width="1003"/></p>
 <p>Now we drag a gripper model into the scene, keep it selected, then control-click the attachment force sensor, then click the Assembling/disassembling toolbar button. The gripper goes into place:</p>
 <p>現在，我們將抓手模型拖到場景中，使其保持選中狀態，然後按住<span>Control</span>鍵單擊並單擊附著力傳感器，然後單擊“裝配<span>/</span>拆卸”工具欄按鈕。 夾持器到位：</p>
-<p>*photo 06</p>
 <p><img alt="" height="532" src="/images/photo 06.png" width="695"/></p>
 <p>The gripper knew how to attach itself because it was appropriately configured during its model definition. We now also need to properly configure the robot model, so that it will know how to attach itself to a mobile base for instance. We select the robot model, then click Assembling in the object common properties. Set an empty string for 'Parent' match values, then click Set matrix. This will memorize the current base object's local transformation matrix, and use it to position/orient itself relative to the mobile robot's attachment point. To verify that we did things right, we drag the model Models/robots/mobile/KUKA Omnirob.ttm into the scene. Then we select our robot model, then control-click one of the attachment points on the mobile platform, then click the Assembling/disassembling toolbar button. Our robot should correctly place itself on top of the mobile robot:</p>
 <p> </p>
 <p>抓具知道如何附加自身，因為它在模型定義期間進行了適當的配置。 現在，我們還需要正確配置機器人模型，以便它將知道如何將自己附加到移動基座上。 我們選擇機器人模型，然後在對象公共屬性中單擊“組裝”。 為“父項”匹配值設置一個空字符串，然後單擊“設置矩陣”。 這將記住當前基礎對象的局部轉換矩陣，並使用它相對於移動機器人的附著點定位<span>/</span>定向。 為了驗證我們做的正確，我們將模型<span>Models / robots / mobile / KUKA Omnirob.ttm</span>拖到場景中。 然後，我們選擇機器人模型，然後在移動平台上按住<span>Control</span>鍵並單擊其中一個附接點，然後單擊“組裝<span>/</span>拆卸”工具欄按鈕。 我們的機器人應該正確地將自己放置在移動機器人的頂部：</p>
-<p>*photo 07</p>
 <p><img alt="" height="659" src="/images/photo 07.png" width="419"/></p>
 <p>Now we could add additional items to our robot, such as sensors for instance. At some point we might also want to attach embedded scripts to our model, in order to control its behaviour or configure it for various purposes. In that case, make sure to understand how object handles are accessed from embedded scripts. We can also control/access/interface our model from a plugin, from a remote API client, from a ROS node, from a BlueZero node, or from an add-on.</p>
 <p> </p>
