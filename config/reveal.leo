@@ -18,9 +18,6 @@
 <v t="leo.20180902120523.6"><vh>body</vh>
 <v t="leo.20180902120523.7"><vh>reveal div</vh>
 <v t="leo.20180902120523.8"><vh>slides div</vh>
-<v t="leo.20180902120523.9"><vh>封面投影片</vh>
-<v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
-</v>
 <v t="leo.20191220144043.1"><vh>封面投影片</vh>
 <v t="leo.20191220144043.2"><vh>封面投影片內容</vh></v>
 </v>
@@ -48,126 +45,6 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">&lt;div class="reveal"&gt;
-&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
-&lt;div class="slides"&gt;
-&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-## 電腦輔助設計實習
-
-### s40723234 曾信誠
-
-&lt;small&gt;
-Created by [40723234](https://s40723234.github.io/cad2019/content/index.html)
-&lt;/small&gt;
-
-[s40723234cad2019](https://s40723234.github.io/cad2019/content/index.html)
-
-
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-# 投影片快捷鍵
-
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
-    &lt;/script&gt;
-&lt;/section&gt;
-
-					
-&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-# W2 -W5 每週進度
-    &lt;/script&gt;
-&lt;/section&gt;
-
-						
-&lt;section&gt;
-&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-# W2 - W5 每週進度
-
-* WEEK 2 : 使用github建立倉儲和開啟近端 -&gt; 建立個        人倉儲及網站
-* WEEK 3 : 編譯Slovespace -&gt; 手動進行slovespace編         譯
-* WEEK 4 : 自主練習，跟上第 二 三 周進度
-* WEEK 5 : Slovespace 操作 -&gt; 進行分組作業，利用           slovespace繪製零組件
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-# W6 - W9每週進度
-
-* WEEK 6 :  Slovespace繪製 -&gt; 利用Slovespace繪製雙輪車零組件    /  V-rep模型控制 -&gt; 下載v-rep至個人隨身碟，並利用v-rep操控雙輪車   /   新增啟動與停止按鈕 -&gt; 新增操控v-rep的啟動與停止按鈕
-  
-* WEEK 7 :  Slovespace編譯 -&gt; 將Slovespace加上自己學號
-* WEEK 8 : Slovespace繪圖認證  -&gt; 利用重新編譯後的Slovespace繪製零件
-* WEEK 9 :  錄製期中報告影片，並回報到個人網誌
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-&lt;/section&gt;
-
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
-&lt;script src="js/reveal.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-        // More info https://github.com/hakimel/reveal.js#configuration
-        Reveal.initialize({
-            controls: true,
-            progress: true,
-            history: true,
-            center: true,
-
-            transition: 'slide', // none/fade/slide/convex/concave/zoom
-
-            // More info https://github.com/hakimel/reveal.js#dependencies
-            dependencies: [
-                { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-                { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-                { src: 'plugin/zoom-js/zoom.js', async: true },
-                { src: 'plugin/notes/notes.js', async: true },
-                { src: 'plugin/math/math.js', async: true }
-            ]
-        });
-&lt;/script&gt;
-&lt;/body&gt;
-
-</t>
 <t tx="leo.20180902120523.11">@others
 </t>
 <t tx="leo.20180902120523.12"></t>
@@ -234,8 +111,6 @@ Created by [40723234](https://s40723234.github.io/cad2019/content/index.html)
 <t tx="leo.20180902120523.7">@others
 </t>
 <t tx="leo.20180902120523.8">@others
-</t>
-<t tx="leo.20180902120523.9">@others
 </t>
 <t tx="leo.20180902120538.1"></t>
 <t tx="leo.20180902120538.2">QTreeWidget {
@@ -367,7 +242,7 @@ Created by [40723234](https://s40723234.github.io/cad2019/content/index.html)
 * WEEK 2 : 使用github建立倉儲和開啟近端 -&gt; 建立個        人倉儲及網站
 * WEEK 3 : 編譯Slovespace -&gt; 手動進行slovespace編         譯
 * WEEK 4 : 自主練習，跟上第 二 三 周進度
-* WEEK 5 : Slovespace 操作 -&gt; 進行分組作業，利用           slovespace繪製零組件
+* WEEK 5 : Slovespace 操作 -&gt; 進行分組作業，利用slovespace繪製零組件
     &lt;/script&gt;
 &lt;/section&gt;
 
