@@ -239,10 +239,10 @@ Created by [40723234](https://s40723234.github.io/cad2019/content/index.html)
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
 # W2 - W5 每週進度
 
-* WEEK 2 : 使用github建立倉儲和開啟近端 -&gt; 建立個        人倉儲及網站
-* WEEK 3 : 編譯Slovespace -&gt; 手動進行slovespace編         譯
-* WEEK 4 : 自主練習，跟上第 二 三 周進度
-* WEEK 5 : Slovespace 操作 -&gt; 進行分組作業，利用slovespace繪製零組件
+* WEEK 2 : 建倉儲 與 開啟近端
+* WEEK 3 : 編譯Slovespace   手動進行slovespace編譯
+* WEEK 4 : 自主練習，跟上拖欠進度
+* WEEK 5 : Slovespace 操作  進行分組作業，利用slovespace繪製零組件
     &lt;/script&gt;
 &lt;/section&gt;
 
@@ -259,11 +259,11 @@ Created by [40723234](https://s40723234.github.io/cad2019/content/index.html)
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
 # W6 - W9每週進度
 
-* WEEK 6 :  Slovespace繪製 -&gt; 利用Slovespace繪製雙輪車零組件    /  V-rep模型控制 -&gt; 下載v-rep至個人隨身碟，並利用v-rep操控雙輪車   /   新增啟動與停止按鈕 -&gt; 新增操控v-rep的啟動與停止按鈕
+* WEEK 6 :  利用Slovespace繪製雙輪車零組件    /  V-rep模型控制 -&gt; 下載v-rep，利用v-rep操控雙輪車   /   新增啟停止鈕 -&gt; 新增操控v-rep的啟停鈕
   
-* WEEK 7 :  Slovespace編譯 -&gt; 將Slovespace加上自己學號
-* WEEK 8 : Slovespace繪圖認證  -&gt; 利用重新編譯後的Slovespace繪製零件
-* WEEK 9 :  錄製期中報告影片，並回報到個人網誌
+* WEEK 7 :   將Slovespace加上自己學號
+* WEEK 8 :  利用重新編譯後的Slovespace繪製零件 / 以ssh對github連線
+* WEEK 9 :  錄製期中報告影片(在這週倉儲壞掉重做)
     &lt;/script&gt;
 &lt;/section&gt;
 
@@ -281,14 +281,34 @@ Created by [40723234](https://s40723234.github.io/cad2019/content/index.html)
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
 # W10 - W14每週進度
 
-* WEEK 10:  1.由組長創建分組網站https://s40723221.github.io/cad2019bg2/content/index.html
-                         和分組倉儲https://github.com/s40723221/cad2019bg2
+* WEEK 10:  1.由組長創建分組網站https://s40723212.github.io/cad2019bg1-1/content/index.html
+                                        和分組倉儲https://github.com/s40723212/cad2019bg1-1
                      2.組員利用pull requests參與分組作業
                      3.分別進行 Solidworks 和 NX 繪圖練習
                      4.進行Solidworks 和 NX 繪圖差異分析
 * WEEK 12 : 翻譯電子書(第6章)
-* WEEK 13 :  分組做WEBOTS
-* WEEK 14 :  
+* WEEK 13 :  分組做WEBOTS  
+    &lt;/script&gt;
+&lt;/section&gt;
+						
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+# W15 -W18 每週進度
+    &lt;/script&gt;
+&lt;/section&gt;
+
+						
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+# W15 - W18 週週測驗
+
+* WEEK 15: review 期中考之後的進度(錄製影片)
+* WEEK 17 : 用slovespace畫車，然後在webot打開(錄製影片)
+* WEEK 18 :  翻譯 與 讓車子動測驗 (錄製影片)
+* WEEK 19 :  期末報告
+
     &lt;/script&gt;
 &lt;/section&gt;
 						
