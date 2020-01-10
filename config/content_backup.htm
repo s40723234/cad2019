@@ -4,7 +4,7 @@
 <h4><a href="https://s40723234.github.io/cad2019/content/week10-14.html">week10-14</a></h4>
 <h4><a href="https://s40723234.github.io/cad2019/content/week15-18.html">week15-18</a></h4>
 <p>youtube  :<a href="https://www.youtube.com/channel/UCsEwtWcMxj0-Mf7mozYdaYQ">https://www.youtube.com/channel/UCsEwtWcMxj0-Mf7mozYdaYQ</a></p>
-<p>github  :<a href="https://github.com/s40723234/cad2019">https://github.com/s40723234/cad2019</a></p>
+<p>github     :<a href="https://github.com/s40723234/cad2019">https://github.com/s40723234/cad2019</a></p>
 <h2>week02-06</h2>
 <h4>week02</h4>
 <h4>建立倉儲與開近端，以下有影片(開cc字幕)</h4>
@@ -16,7 +16,7 @@
 <p>6. 利用cmsimde python wsgi.py 開啟近端</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/b9afO4xBZfs" width="560"></iframe></p>
 <h4>Week03</h4>
-<h4>編譯Slovespace，以下有影片(開cc字幕)</h4>
+<h4> 編譯Slovespace，以下有影片(開cc字幕)</h4>
 <p>1. 將 Y:\portablegit\bin\sh.exe 改名為 sh_rename_for_solvespace.exe</p>
 <p>2. 查驗 git 版本在 2.13 以上，即可使用 git clone --recurse-submodules 指令取得所有子模組資料</p>
 <p>3. 將CMakeLists line 713 and 714 前面加上 #</p>
@@ -83,6 +83,16 @@
 <p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/bpjL9nsMWO0" width="560"></iframe></span></p>
 <h4>導入webots</h4>
 <h4><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/p9Pk0C7Oi9Q" width="560"></iframe></h4>
+<h4><span color="#ff0000"><b>以ssh對github連線:</b></span></h4>
+<p><span color="#ff0000">(1)到y槽的portablegit將sh_for_solvespace檔案複製並修改成sh.exe</span></p>
+<p><span color="#ff0000"><span>(2)進入黑窗輸入sh和</span></span><span><code>ssh-keygen -t rsa -b 4096 -C "使用者學號"</code></span></p>
+<p><span face="monospace"><span>(3)下載putty連線工具箱並利用其中的putty.gen創建兩把金鑰</span></span></p>
+<p><span face="monospace"><span>(4)修改啟動器中的指令</span></span></p>
+<pre><code><span>set GIT_HOME=%Disk%:\portablegit\bin\
+set GIT_SSH=%Disk%:\putty\plink.exe</span><br/><br/><span>(5)</span>進入config中更改指令</code><code><span>url = git@github.com:mdecourse/cad2019.git</span>在mdecourse的地方要改成自己的學號</code></pre>
+<p><span face="monospace"><span>(6)開啟putty.exe進去設定github.com和proxy位置其中ssh中的auth的地方必須選取剛剛創建的金鑰</span></span></p>
+<p><span face="monospace"><span>(7)用編輯器複製課程網站中的step6指令並且儲存放入.ssh資料夾之中</span></span></p>
+<p><span face="monospace"><span>(8)進入github並且在setting中的ssh將金鑰開啟並複製放入金鑰設置處</span></span></p>
 <h4>week09</h4>
 <p>期中報告影片</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/twk2Sa3rit4" width="560"></iframe></p>
